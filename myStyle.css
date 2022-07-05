@@ -1,0 +1,26 @@
+@-ms-viewport {width: device-width;}
+@-webkit-viewport {width: device-width;}
+@-moz-viewport {width: device-width;}
+@-ms-viewport {width: device-width;}
+@-o-viewport {width: device-width;}
+@viewport {width: device-width;}
+
+
+.btn{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+}
+
+.down{
+    top:75%;
+}
+
+@media only screen and (min-width:280px)and (max-width:1280px){
+    .left {
+        display:none;
+    }
+    .right {
+        display:none;
+    }
+}
